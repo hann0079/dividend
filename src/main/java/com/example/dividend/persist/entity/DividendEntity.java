@@ -12,13 +12,13 @@ import java.time.LocalDateTime;
 @Getter
 @ToString
 @NoArgsConstructor
-@Table(
-        uniqueConstraints = {
-                @UniqueConstraint(
-                        columnNames = { "companyId", "date" }
-                )
-        }
-)
+//@Table(
+//        uniqueConstraints = {
+//                @UniqueConstraint(
+//                        columnNames = { "companyId", "date" }
+//                )
+//        }
+//)
 public class DividendEntity {
 
     @Id

@@ -12,5 +12,6 @@ public interface CompanyRepository extends JpaRepository<CompanyEntity, Long> {
 
     // Optional로 값이 없는 경우 처리
     Optional<CompanyEntity> findByName(String name);
+    Optional<CompanyEntity> findByTicker(String ticker);
 
 }
